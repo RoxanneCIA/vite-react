@@ -1,0 +1,76 @@
+.tree-transfer-content {
+  border: 1px solid var(--border-color);
+  border-radius: @border-radius-base;
+  height: 400px;
+  overflow: hidden;
+
+  .transfer-left,
+  .transfer-right {
+    padding: 16px;
+    height: 100%;
+  }
+
+  .transfer-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .scroll-content {
+    margin-top: 12px;
+    overflow-y: auto;
+    flex: auto;
+  }
+
+  .transfer-left {
+    border-right: 1px solid var(--border-color);
+  }
+
+  .transfer-right-header {
+    height: 32px;
+
+    .clear {
+      color: var(--text-tips-color);
+    }
+  }
+
+  .transfer-right {
+    .ant-list-sm .ant-list-item {
+      padding: 6px 8px;
+    }
+
+    .ant-list-split .ant-list-item {
+      border: none;
+    }
+
+    .ant-list-item {
+      transition: all 0.3s;
+      cursor: default;
+
+      &:hover {
+        background-color: rgba(233, 247, 236, 1);
+        border-radius: @border-radius-base;
+      }
+    }
+  }
+
+  .ant-tree-switcher {
+    line-height: 34px;
+
+    .ant-tree-switcher-icon,
+    .ant-select-tree-switcher-icon {
+      font-size: 14px;
+      vertical-align: -2px;
+      color: #ccc;
+    }
+  }
+
+  .ant-tree-checkbox {
+    margin-top: 10px;
+  }
+
+  .ant-tree .ant-tree-node-content-wrapper {
+    height: 34px;
+    line-height: 34px;
+  }
+}

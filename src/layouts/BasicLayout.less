@@ -1,0 +1,46 @@
+.logo {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.user-info {
+  position: absolute;
+  right: 20px;
+  top: 0;
+
+  .account {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: var(--text-tips-color);
+  }
+}
+
+.inner-container {
+  height: calc(100vh - 56px);
+
+  .scroll-container {
+    overflow-y: auto;
+  }
+
+  .container-content {
+    margin: 0;
+    padding: 20px 12px;
+    min-height: auto;
+
+    .ant-tabs-nav {
+      margin-bottom: 8px;
+      background-color: #fff;
+      padding: 0 16px;
+    }
+  }
+
+  .menu-sider {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}

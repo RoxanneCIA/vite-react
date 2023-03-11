@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #1fb860;
+  --base-font-color: #314659;
+  --base-menu-bg-color: #efefef;
+  --base-bg-color: #f5f5f5;
+  --base-white: #fff;
+  --base-black: #000;
+  --base-bold: 600;
+  --border-color: #e8e8e8;
+  --table-header-bg: #f8f8f8;
+  --text-tips-color: #999;
+  --text-link: #2b85e4;
+  --menu-padding: 16px;
+  --menu-text-indent: 32px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-corner {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
